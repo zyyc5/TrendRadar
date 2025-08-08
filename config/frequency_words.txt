@@ -1,8 +1,3 @@
-胖东来
-于东来
-
-DeepSeek
-梁文锋
 
 华为
 任正非
@@ -18,12 +13,6 @@ HarmonyOS
 稚晖君
 智元
 
-京东
-刘强东
-
-字节
-张一鸣
-
 小米
 雷军
 xiaomi
@@ -37,13 +26,6 @@ Microsoft
 黄仁勋
 英伟达
 NVIDIA
-
-AMD
-
-谷歌
-google
-gemini
-deepmind
 
 chatgpt
 Sam Altman
@@ -70,11 +52,6 @@ ai
 
 机器人
 
-国产
-中国
-
-美国
-
 芯片
 光刻机
 
@@ -89,3 +66,5 @@ ai
 大盘
 
 政策
+
+热点
