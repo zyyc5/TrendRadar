@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-12 14:31:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753073" target="_blank" class="news-link">“著名反指”美银调查：机构对经济和AI更乐观，对中国更乐观，加密货币和黄金持仓很低</a> [6] <font color='grey'>- 14时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753071" target="_blank" class="news-link">AI泡沫何时破灭？美银Hartnett建议紧盯这个关键指标</a> [8] <font color='grey'>- 14时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E5%AE%9E%E7%8E%B0%E5%BE%A1%E5%89%91%E9%A3%9E%E8%A1%8C" target="_blank" class="news-link">用AI实现御剑飞行</a> [26] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone17Pro%E9%95%BF%E5%BE%97%E5%83%8F%E5%85%85%E7%94%B5%E5%AE%9D&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26pos%3D1%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D2%26realpos%3D2%26band_rank%3D2%26cate%3D5001%26lcate%3D5001%26q%3DiPhone17Pro%25E9%2595%25BF%25E5%25BE%2597%25E5%2583%258F%25E5%2585%2585%25E7%2594%25B5%25E5%25AE%259D%26display_time%3D1754980220%26pre_seqid%3D17549802207820527549129" target="_blank" class="news-link">iPhone17Pro长得像充电宝</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%2017%E5%80%BC%E5%BE%97%E7%AD%89%E5%90%97" target="_blank" class="news-link">iPhone 17值得等吗</a> [27] <font color='grey'>- 14时31分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17Pro%E6%9C%80%E6%96%B0%E5%A4%96%E8%A7%82%E6%9B%9D%E5%85%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26pos%3D29%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D0%26realpos%3D30%26band_rank%3D30%26cate%3D5001%26lcate%3D5001%26q%3D%2523iPhone17Pro%25E6%259C%2580%25E6%2596%25B0%25E5%25A4%2596%25E8%25A7%2582%25E6%259B%259D%25E5%2585%2589%2523%26display_time%3D1754980220%26pre_seqid%3D17549802207820527549129" target="_blank" class="news-link">iPhone17Pro最新外观曝光</a> [30] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B0%81%E6%98%AF2025%E6%9C%80%E5%BC%BA%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">谁是2025最强机器人</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时31分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2112573" target="_blank" class="news-link">直击全球首家机器人4S店：C端陪伴型机器人受捧，医疗级产品售价超千万</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B8%82%E5%9C%BA%E7%8E%B0%E7%8A%B6%E5%A6%82%E4%BD%95" target="_blank" class="news-link">机器人市场现状如何</a> [15] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E9%97%A8%E9%94%81%E8%AF%AF%E8%AF%86%E5%A4%96%E5%8D%96%E5%91%98%E4%BA%BA%E8%84%B8%E5%BC%80%E9%94%81%E6%88%90%E5%8A%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26pos%3D22%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D0%26realpos%3D23%26band_rank%3D23%26cate%3D5001%26lcate%3D5001%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B3%25E9%2597%25A8%25E9%2594%2581%25E8%25AF%25AF%25E8%25AF%2586%25E5%25A4%2596%25E5%258D%2596%25E5%2591%2598%25E4%25BA%25BA%25E8%2584%25B8%25E5%25BC%2580%25E9%2594%2581%25E6%2588%2590%25E5%258A%259F%2523%26display_time%3D1754980220%26pre_seqid%3D17549802207820527549129" target="_blank" class="news-link">小米门锁误识外卖员人脸开锁成功</a> [23] <font color='grey'>- 14时31分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%8F%91%E8%B5%B7%E5%B0%8F%E7%B1%B3YU7%E7%89%88%E6%9C%AC%E6%9B%B4%E5%90%8D%E6%8A%95%E7%A5%A8" target="_blank" class="news-link">雷军发起小米YU7版本更名投票</a> [30] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2112315" target="_blank" class="news-link">英伟达推出具身智能推理模型 美联储主席候选人名单再扩容 | 环球市场</a> [6] <font color='grey'>- 14时31分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2112214" target="_blank" class="news-link">瞄准机器人“推理大脑”！英伟达推出具身智能推理模型Cosmos Reason</a> [9] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1936755747468829345" target="_blank" class="news-link">极星汽车或将退出中国市场，6 月销量仅为 6 辆，极星在产品和经营上存在哪些问题？还能迎来转机吗？</a> [10] <font color='grey'>- 14时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2200539" target="_blank" class="news-link">哪吒汽车成为失信被执行人</a> [11] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89Model3%E9%95%BF%E7%BB%AD%E8%88%AA%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF" target="_blank" class="news-link">特斯拉Model3长续航版本上线</a> [28] <font color='grey'>- 14时31分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E8%B0%81%E6%98%AF2025%E6%9C%80%E5%BC%BA%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">谁是2025最强机器人</a> <font color='red'><strong>[3]</strong></font></li></ul></div>
+    </body>
+    </html>
+    
