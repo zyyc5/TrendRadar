@@ -1,0 +1,122 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-17 20:38:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2117354" target="_blank" class="news-link">周末要闻汇总：万亿级大利好，AI基建领域迎重磅催化；中国神华重组预案出炉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时38分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753477" target="_blank" class="news-link">GPT-5“让人失望”，AI“撞墙”了吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时38分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2117120" target="_blank" class="news-link">AI竞赛愈演愈烈！Meta六个月内第四次重组AI团队</a> [8] <font color='grey'>- 20时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7539353218095038515/" target="_blank" class="news-link">护网:不让科技偷走隐私 网警发防范指南</a> [6] <font color='grey'>- 20时38分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%8A%A4%E7%BD%91%EF%BC%9A%E4%B8%8D%E8%AE%A9%E7%A7%91%E6%8A%80%E5%81%B7%E8%B5%B0%E9%9A%90%E7%A7%81+%E7%BD%91%E8%AD%A6%E6%8F%90%E7%A4%BA" target="_blank" class="news-link">护网：不让科技偷走隐私 网警提示</a> [6] <font color='grey'>- 20时38分</font><br>[抖音] <a href="https://www.douyin.com/hot/2205963" target="_blank" class="news-link">护网：不让科技偷走隐私 网警发防范指南</a> [6] <font color='grey'>- 20时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1939697045322555858" target="_blank" class="news-link">人形机器人运动会首金诞生，宇树机器人 6 分 34 秒跑 1500 米是什么水平？限制机器人奔跑速度的因素有哪些？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344304&amp;amp;topic_name=%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A%E5%AE%87%E6%A0%91%E5%A4%BA%E5%86%A0%3A%E6%9C%89%E7%82%B9%E5%BA%9F%E9%80%89%E6%89%8B" target="_blank" class="news-link">机器人运动会宇树夺冠:有点废选手</a> [28] <font color='grey'>- 20时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A" target="_blank" class="news-link">世界人形机器人运动会</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时38分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2117375" target="_blank" class="news-link">人形机器人史上首个百米“飞人”诞生</a> [11] <font color='grey'>- 20时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%B8%E6%9C%BA%E8%B6%85%E9%80%9F%E8%87%B44%E6%AD%BB%E8%B5%94%E5%81%BF%E6%97%B6%E6%8B%BF%E8%B4%AB%E5%9B%B0%E8%AF%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26pos%3D5%26flag%3D1%26band_rank%3D6%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D6%26stream_entry_id%3D31%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B3%25E5%258F%25B8%25E6%259C%25BA%25E8%25B6%2585%25E9%2580%259F%25E8%2587%25B44%25E6%25AD%25BB%25E8%25B5%2594%25E5%2581%25BF%25E6%2597%25B6%25E6%258B%25BF%25E8%25B4%25AB%25E5%259B%25B0%25E8%25AF%2581%2523%26display_time%3D1755433455%26pre_seqid%3D1755433455752056488847" target="_blank" class="news-link">小米司机超速致4死赔偿时拿贫困证</a> [6] <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone%E5%8D%83%E4%B8%87%E5%88%AB%E5%88%A0%E7%9A%84%E8%87%AA%E5%B8%A6%E8%BD%AF%E4%BB%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26pos%3D4%26flag%3D0%26band_rank%3D5%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D5%26stream_entry_id%3D31%26q%3D%2523iPhone%25E5%258D%2583%25E4%25B8%2587%25E5%2588%25AB%25E5%2588%25A0%25E7%259A%2584%25E8%2587%25AA%25E5%25B8%25A6%25E8%25BD%25AF%25E4%25BB%25B6%2523%26display_time%3D1755433455%26pre_seqid%3D1755433455752056488847" target="_blank" class="news-link">iPhone千万别删的自带软件</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时38分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%B8%E6%9C%BA%E8%B6%85%E9%80%9F%E8%87%B44%E6%AD%BB%E8%B5%94%E5%81%BF%E6%97%B6%E6%8B%BF%E8%B4%AB%E5%9B%B0%E8%AF%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26pos%3D5%26flag%3D1%26band_rank%3D6%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D6%26stream_entry_id%3D31%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B3%25E5%258F%25B8%25E6%259C%25BA%25E8%25B6%2585%25E9%2580%259F%25E8%2587%25B44%25E6%25AD%25BB%25E8%25B5%2594%25E5%2581%25BF%25E6%2597%25B6%25E6%258B%25BF%25E8%25B4%25AB%25E5%259B%25B0%25E8%25AF%2581%2523%26display_time%3D1755433455%26pre_seqid%3D1755433455752056488847" target="_blank" class="news-link">小米司机超速致4死赔偿时拿贫困证</a> [6]</li></ul></div>
+    </body>
+    </html>
+    
