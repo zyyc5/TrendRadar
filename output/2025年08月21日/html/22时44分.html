@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-21 22:44:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753708" target="_blank" class="news-link">科技股探底反弹，纳指仍跌近0.7%，道指惊险收涨，黄金、原油、加密货币齐反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时44分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121907" target="_blank" class="news-link">【焦点复盘】沪指缩量十字星续创10年新高，两市成交额连续7日站上2万亿，科技股内部延续高低切换</a> [6] <font color='grey'>- 22时44分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2122229" target="_blank" class="news-link">屏息以待杰克逊霍尔 科技股维持回调步伐 | 今夜看点</a> [11] <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1941535461521725332" target="_blank" class="news-link">小鹏半年销量已超去年全年，毛利率超特斯拉，现金储备 475 亿元，小鹏做对了什么？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时44分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8m04FZMDJ8m" target="_blank" class="news-link">马斯克放弃组建“美国党”转而支持万斯？万斯回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2122214" target="_blank" class="news-link">美欧达成贸易协议框架 美国预计数周内减免对欧汽车关税</a> [9] <font color='grey'>- 22时44分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E9%85%92%E5%90%8E%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%8A%9F%E8%83%BD%E4%B8%8A%E9%AB%98%E9%80%9F" target="_blank" class="news-link">男子酒后开启自动驾驶功能上高速</a> [22] <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BB%8A%E5%A4%A9%E5%87%A4%E5%87%B0%E9%99%A2%E5%87%B6%E7%9C%9F%E5%8F%91%E9%80%81Dmail" target="_blank" class="news-link">今天凤凰院凶真发送Dmail</a> [8] <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E6%96%B0%E8%A7%84%E6%AF%8F%E6%97%A5%E7%8E%A9%E6%89%8B%E6%9C%BA%E4%B8%8D%E8%B6%852%E5%B0%8F%E6%97%B6&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26pos%3D19%26flag%3D1%26band_rank%3D19%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D19%26stream_entry_id%3D31%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E6%2596%25B0%25E8%25A7%2584%25E6%25AF%258F%25E6%2597%25A5%25E7%258E%25A9%25E6%2589%258B%25E6%259C%25BA%25E4%25B8%258D%25E8%25B6%25852%25E5%25B0%258F%25E6%2597%25B6%26display_time%3D1755787192%26pre_seqid%3D1755787192795056489061" target="_blank" class="news-link">日本新规每日玩手机不超2小时</a> [19] <font color='grey'>- 22时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2121969" target="_blank" class="news-link">【数据看盘】机构减仓数字货币概念股 机器人概念股遭游资甩卖</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753798" target="_blank" class="news-link">DeepSeek-V3.1正式发布，混合推理架构加持，针对下一代国产芯片设计</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时44分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E6%96%B0%E8%A7%84%E6%AF%8F%E6%97%A5%E7%8E%A9%E6%89%8B%E6%9C%BA%E4%B8%8D%E8%B6%852%E5%B0%8F%E6%97%B6&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26pos%3D19%26flag%3D1%26band_rank%3D19%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D19%26stream_entry_id%3D31%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E6%2596%25B0%25E8%25A7%2584%25E6%25AF%258F%25E6%2597%25A5%25E7%258E%25A9%25E6%2589%258B%25E6%259C%25BA%25E4%25B8%258D%25E8%25B6%25852%25E5%25B0%258F%25E6%2597%25B6%26display_time%3D1755787192%26pre_seqid%3D1755787192795056489061" target="_blank" class="news-link">日本新规每日玩手机不超2小时</a> [19]</li></ul></div>
+    </body>
+    </html>
+    
